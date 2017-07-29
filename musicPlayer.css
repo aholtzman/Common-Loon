@@ -1,0 +1,59 @@
+body {
+	color: grey;
+	font-family: Avenir;
+}
+
+img {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 0;
+}
+
+ul {
+	list-style: none;
+	line-height: 28px;
+	position: absolute;
+	top: 10px;
+}
+
+.active {
+	color: white;
+	font-style: bold;
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  margin-top: 40px;
+  width: 350px;
+  height: 350px;
+}
+
+#playlist {
+	margin: auto 0;
+	background-image: url('../img/bg2.png');
+	position: absolute;
+	height: 350px;
+	width: 350px;
+}
+
+#play-button {
+	background-image: url('../img/Play.png');
+	height: 42px;
+	width: 42px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+}
+
+#pause-button {
+	background-image: url('../img/Pause.png');
+	height: 42px;
+	width: 42px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	text-align: center;
+}
